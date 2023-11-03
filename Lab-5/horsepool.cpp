@@ -17,7 +17,7 @@ void horsePool(string text, string pattern, int n, int m) {
     vector<int> matchIndex;
     int j = 0;
 
-    while (j <= n - m) { // Changed the loop condition
+    while (j <= n - m) {
         int i = m - 1;
         while (i >= 0 && pattern[i] == text[i + j]) {
             i--;
